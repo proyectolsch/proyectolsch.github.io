@@ -1,28 +1,133 @@
 <!DOCTYPE html>
+<html>
 <head>
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<title>Hello, world!</title>
-	<!-- include three.js library -->
-	<script src='js/three.js'></script>
-	<!-- include jsartoolkit -->
-	<script src="jsartoolkit5/artoolkit.min.js"></script>
-	<script src="jsartoolkit5/artoolkit.api.js"></script>
-	<!-- include threex.artoolkit -->
-	<script src="threex/threex-artoolkitsource.js"></script>
-	<script src="threex/threex-artoolkitcontext.js"></script>
-	<script src="threex/threex-arbasecontrols.js"></script>
-	<script src="threex/threex-armarkercontrols.js"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+
+	<meta charset="utf-8">
+	<title>SEÑAS</title>
+
+	<link rel="stylesheet" href="css/boostrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+   <link type="text/css" rel="stylesheet" href="pagina_inicial.css">
+
+
+
 </head>
+<body>
+	
 
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+ <nav class="navbar navbar-expand-sm navbar navbar-light" style="background-color: #F9F4FB;">
+ 	<div class="container-fluid">
+ 		<a class="navbar-brand" href="https://ibighit.com/bts/eng/">
+ 			<image src="SEÑAS.PNG" alt="" width="150">
+ 		</a>
+ 		
 
-<video preload="auto" id="video1" autoplay="false" loop="true" crossOrigin="anonymous" webkit-playsinline playsinline controls style="display:none" allow="autoplay">
-	<!-- <source src="video/sintel.ogv" type='video/ogg; codecs="theora, vorbis"'> -->
-	<source src="video/juego.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-</video>
-		
+ 		 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<script src= "./app.js"> </script>
+ 		<div class="collapse navbar-collapse" id="navbarNav">
+ 			<ul  class="navbar-nav ml-auto">
+ 				<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pagina_web_bts.html">Inicio</a>
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="segunda_p_web.html">About Señas</a>
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="cuarta_p_web.html">Experiencias</a>
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="tercera_p_web.html">Kits</a>
+                  <li class="nav-item">
+        
+      </li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ </nav>
+
+
+<div class="carousel slide" id="mainSlider" data-ride="carousel">
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="portada.png" alt="" class="d-block w-100">
+		</div>
+	</div>
+</div>
+
+
+
+	
+
+
+<div id="separator-amiibos">
+	<div class="content bg-success"></div>
+</div>
+
+
+
+<div id="amiibos" class="py-5 pb-5 bg-primary">
+  <div class="container">
+     <div class="row">
+      <h1 class="text-center text-black text-shadow fw-bold"> Que encontrarás en este sitio</h1>
+
+  
+<div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+  
+  <div class="col-sm py-5">
+    <a href="segunda_p_web.html" class="link-dark">
+    <img src="contexto.png" alt="" class="w-100 amiibo"></a>
+    <div class="text-center py-5 fw-light"><span class="amiibo-name h6 p-2 bg-light fw-bold" style="color: #000000">SOBRE SEÑAS</span></div>
+  </div>
+
+    <div class="col-sm py-5">
+      <a href="cuarta_p_web.html" class="link-dark">
+    <img src="MARCADOR_VOCAL.png" alt="" class="w-100 amiibo"></a>
+ 
+    <div class="text-center py-5"><span class="amiibo-name h6 p-2 bg-light fw-bold" style="color: #000000">VOCALES</span></div>
+  </div>
+
+
+    <div class="col-sm py-5">
+       <a href="tercera_p_web.html" class="link-dark">
+    <img src="KITS.png" alt="" class="w-100 amiibo"></a>
+    <div class="text-center py-5"><span class="amiibo-name h6 p-2 bg-light fw-bold" style="color: #000000">KITS SEÑAS</span></div>
+  </div>
+
+
+    <div class="col-sm py-5">
+
+       <a href="pagina_web_bts.html" class="link-dark">
+    <img src="MÁS.png" alt="" class="w-100 amiibo"></a>
+    <div class="text-center py-5 fw-light"><span class="amiibo-name h6 p-2 bg-light fw-bold" style="color: #000000">VER MÁS</span></div>
+  </div>
+
+
+
+
+ 	
+ </div>	
+
+ <div class="row py-5">
+ 	<div class="col text-center">
+ 		<a href="#" class="link-dark">
+ 			<button class="btn btn-light btn-lg rounded-pill p-3 font-weight-bold">Volver al Inicio</button>
+ 		</a>
+ 	</div>
+ </div>	
+
+<div id="separator-amiibos-footer"></div>
+	</div>
+	
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
 </body>
 </html>
